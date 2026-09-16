@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ─── ArchReview AI: секреты и локальная конфигурация ───
+# НИКОГДА не коммитить — содержит рабочие API-ключи
+.streamlit/secrets.toml
+secrets.toml
+*.key
+.env
+.env.local
+
+# Локальные документы и выгрузки
+/uploads/
+/outputs/
+*.tmp
